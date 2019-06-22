@@ -1,0 +1,19 @@
+1. What is the DOM?
+
+    The DOM is an object representation of the html elements on a webpage. The DOM is created by the html on the webpage and is stored in a tree structure, giving us access to the elements. Javascript allows us to interact with the DOM and affect our HTML/CSS.
+
+2. What is an event?
+
+    An event refers to any type of interaction that a user has with the site. This could involve clicking, mouse hovering, scrolling, and etc.
+
+3. What is an event listener?
+
+    An event listener is method that specifies what kind of event will take place when triggered on a elment. Event listener's take in 2 arguments(event type, callback).
+
+4. Why would we convert a NodeList into an Array?
+
+    When using a querySelectorAll, the return value is a psuedo Array. While it does have acess to the forEach method, it does not have access other crucial methods. Converting the nodelist using the Array.from() method, will turn the nodelist into a real array, giving it access to all array methods.
+    
+5. What is a component?
+
+    Components are peices of the reusable code that are used to build elements sharing functionality and styling. Components makes our code DRY.
